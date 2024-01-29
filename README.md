@@ -69,7 +69,7 @@ You may include any other `private` methods and instance variables you think app
 
 ```java
 Welcome to Blackjack! What is your name? MrHsieh
-Hello MrHsieh! I am Gambletron 5000! Let's play some cards.
+Hello MrHsiehHello MrHsieh! I am Gambletron 5000! Let's play some cards.
 Your Hand: Jack of Spades Ace of Clubs 
 Dealer's Hand: 2 of Spades 5 of Spades 
 Your Hand: Jack of Spades Ace of Clubs 

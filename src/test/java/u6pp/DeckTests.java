@@ -49,6 +49,9 @@ public class DeckTests {
         ArrayList<Card> otherDealtCards = DeckTests.dealOutDeck(testDeck);
         testDeck.shuffle();
 
+        assertEquals(DECK_SIZE, testDeck.numLeft());
+        assertTrue(DeckTests.areDifferent(dealtCards, otherDealtCards));
+
         assertAll("A shuffled Deck is full size and different from a previously dealt deck", 
             () -> assertEquals(DECK_SIZE, testDeck.numLeft()),
             () -> assertTrue(DeckTests.areDifferent(dealtCards, otherDealtCards))

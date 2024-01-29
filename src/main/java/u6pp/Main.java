@@ -9,6 +9,15 @@ class Main {
     // uncomment to play blackjack
     //Blackjack blackjack = new Blackjack();
     //blackjack.play();
+
+    // Deck deck = new Deck();
+    // System.out.println("Deck before shuffling:");
+    // Deck.printArray(deck.getDeck());
+
+    // deck.shuffle();
+
+    // System.out.println("Deck after shuffling:");
+    // Deck.printArray(deck.getDeck());
     
     // uncomment to play yahtzee
     //Yahtzee yahtzee = new Yahtzee();
